@@ -1,0 +1,3 @@
+/Users/shixin/CLionProjects/ThinkingCplus/build/CMakeFiles/rebuild_cache.dir
+/Users/shixin/CLionProjects/ThinkingCplus/build/CMakeFiles/edit_cache.dir
+/Users/shixin/CLionProjects/ThinkingCplus/build/CMakeFiles/ThinkingCplus.dir
