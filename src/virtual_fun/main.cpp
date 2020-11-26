@@ -1,17 +1,12 @@
 #include <iostream>
-#include "Shape.h"
-#include "Circle.h"
-#include "Rect.h"
+#include "base_person.h"
+#include "worker.h"
 
 int main() {
-    Shape *p1 = new Circle(3);
-    Shape *p2 = new Rect(3, 4);
-    p1->calcArea();
-    p2->calcArea();
+    base_person *p1 = new worker("zhang san");
+    p1->work();
     delete p1;
-    delete p2;
     p1 = NULL;
-    p2 = NULL;
 
 
     return 0;
