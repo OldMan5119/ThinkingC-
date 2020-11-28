@@ -15,5 +15,11 @@ set(CMAKE_CXX_STANDARD 14)
 #aux_source_directory(src/virtual_fun virtual_fun)
 #add_executable(virtual_fun ${virtual_fun})
 
-aux_source_directory(src/interfaces interfaces)
-add_executable(interfaces ${interfaces})
+#aux_source_directory(src/interfaces interfaces)
+#add_executable(interfaces ${interfaces})
+
+#aux_source_directory(src/rtti rtti)
+#add_executable(rtti ${rtti})
+
+aux_source_directory(src/exception exception)
+add_executable(exception ${exception})
