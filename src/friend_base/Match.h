@@ -10,7 +10,7 @@ class Match {
 public:
     Match();
     ~Match();
-    void printTime(Timer &timer);
+    void printTimer(const Timer &timer);
 };
 
 

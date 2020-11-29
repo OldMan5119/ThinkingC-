@@ -10,7 +10,14 @@ void test(Timer &timer) {
 }
 
 int main() {
+    //全局友元函数测试
     Timer timer(6, 10, 20);
     test(timer);
+
+    //成员友元函数测试
+    Match *match = new Match();
+    match->printTimer(timer);
+    delete match;
+
     return 0;
 }

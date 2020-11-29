@@ -5,7 +5,9 @@
 #ifndef THINKINGCPLUS_TIMER_H
 #define THINKINGCPLUS_TIMER_H
 
-
+#include "Match.h"
+#include "Meeting.h"
+//class Meeting;
 class Timer {
 
 public:
@@ -13,7 +15,14 @@ public:
 
     virtual ~Timer();
 
+    //声明为友元类
+    friend Meeting;
+
+    //全局友元函数
     friend void test(Timer &timer);
+
+    //成员友元函数
+    friend void Match::printTimer(const Timer &timer);
 
 private:
     int m_hour;
