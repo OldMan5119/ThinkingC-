@@ -21,5 +21,8 @@ set(CMAKE_CXX_STANDARD 14)
 #aux_source_directory(src/rtti rtti)
 #add_executable(rtti ${rtti})
 
-aux_source_directory(src/exception exception)
-add_executable(exception ${exception})
+#aux_source_directory(src/exception exception)
+#add_executable(exception ${exception})
+
+aux_source_directory(src/friend_base friend_base)
+add_executable(friend_base ${friend_base})
